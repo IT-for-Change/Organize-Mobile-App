@@ -2,7 +2,7 @@ Telangana Gig and Platform Workers Union App
 =================
 
 
-##About TGPWU
+### About TGPWU
 
 The Telangana Gig and Platforms Workers Union (TGPWU) was founded in 2021 to represent the interests of gig workers and platform workers in Telangana. 
 
