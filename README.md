@@ -71,5 +71,17 @@ The *Organize* mobile app is for community organizations.
 
 
 
+#### Common errors and things to look out for: 
 
+1. Cordova - Current working directory is not a Cordova-based project 
+
+	$\to$ Make sure you have www folder in root directory. 
+
+2.  [ERROR] Could not parse build output file: `platforms/android/app/build/outputs/apk/debug/output.json`
+
+	$\to$ Downgrade Ionic CLI to 5.4.16 
+			
+3. FATAL ERROR: Ineffective mark-compacts near heap limit Allocation failed - JavaScript heap out of memory
+	$\to$ `export NODE_OPTIONS="--max-old-space-size=8192"`
+	This command simply increases the maximum allowed memory for Node. Add it to ~/.bashrc so that you dont have to execute it on every build. 
 
