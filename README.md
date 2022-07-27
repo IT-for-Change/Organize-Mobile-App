@@ -75,7 +75,8 @@ The *Organize* mobile app is for community organizations.
 
 1. Cordova - Current working directory is not a Cordova-based project 
 
-	$\to$ Make sure you have www folder in root directory. 
+	$\to$ Make sure you have /www folder in root directory. Otherwise make one. 
+		`mkdir ~/Organize-Mobile-App/www`
 
 2.  [ERROR] Could not parse build output file: `platforms/android/app/build/outputs/apk/debug/output.json`
 
