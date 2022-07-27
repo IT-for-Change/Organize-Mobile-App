@@ -45,7 +45,7 @@ import { CoreTimeUtils } from '@services/utils/time';
 export enum AddonCalendarEventIcons {
     SITE = 'fas-globe',
     CATEGORY = 'fas-cubes',
-    COURSE = 'fas-graduation-cap',
+    COURSE = 'fas-fist-raised',
     GROUP = 'fas-users',
     USER = 'fas-user',
 }

@@ -68,7 +68,7 @@ export class CoreCoursesMyCoursesMainMenuHandlerService implements CoreMainMenuH
             title: 'core.courses.mycourses',
             page: CoreCoursesMyCoursesMainMenuHandlerService.PAGE_NAME,
             class: 'core-courses-my-courses-handler',
-            icon: 'fas-graduation-cap',
+            icon: 'fas-fist-raised',
             priority: displayMyCourses ? this.priority + 200 : this.priority,
         };
     }
