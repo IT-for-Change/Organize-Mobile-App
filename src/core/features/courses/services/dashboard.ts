@@ -63,9 +63,10 @@ export class CoreCoursesDashboardProvider {
         };
         if (CoreSites.getRequiredCurrentSite().isVersionGreaterEqualThan('4.0')) {
             params.mypage = myPage;
-        } else if (myPage != CoreCoursesDashboardProvider.MY_PAGE_DEFAULT) {
-            throw new CoreError('mypage param is no accessible on core_block_get_dashboard_blocks');
         }
+        /*else if (myPage != CoreCoursesDashboardProvider.MY_PAGE_DEFAULT) {
+            throw new CoreError('mypage param is no accessible on core_block_get_dashboard_blocks');
+        }*/
 
         const preSets: CoreSiteWSPreSets = {
             cacheKey: this.getDashboardBlocksCacheKey(myPage, userId),
