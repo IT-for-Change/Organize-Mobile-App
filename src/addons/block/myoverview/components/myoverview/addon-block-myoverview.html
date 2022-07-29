@@ -24,10 +24,10 @@
 
     <ion-row class="ion-hide-md-up addon-block-myoverview-filter" *ngIf="hasCourses">
         <ion-col>
-            <!-- Filter courses. -->
+            <!-- Filter courses. 
             <ion-searchbar [(ngModel)]="textFilter" (ionInput)="filterTextChanged($event.target)"
                 (ionCancel)="filterTextChanged($event.target)" [placeholder]="'core.courses.filtermycourses' | translate">
-            </ion-searchbar>
+	    </ion-searchbar> -->
         </ion-col>
     </ion-row>
     <ion-row class="ion-justify-content-between ion-align-items-center addon-block-myoverview-filter" *ngIf="hasCourses">
@@ -68,10 +68,10 @@
             </core-combobox>
         </ion-col>
         <ion-col>
-            <!-- Filter courses. -->
+            <!-- Filter courses. 
             <ion-searchbar class="ion-hide-md-down" [(ngModel)]="textFilter" (ionInput)="filterTextChanged($event.target)"
                 (ionCancel)="filterTextChanged($event.target)" [placeholder]="'core.courses.filtermycourses' | translate">
-            </ion-searchbar>
+	    </ion-searchbar> -->
         </ion-col>
         <ion-col size="auto" *ngIf="sort.enabled">
             <core-combobox [label]="'core.sortby' | translate" [selection]="sort.selected" (onChange)="sortCourses($event)"
